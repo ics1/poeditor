@@ -1,0 +1,23 @@
+{
+  "name": "ics1/poeditor",
+  "type": "library",
+  "description": "PO Editor for PHP",
+  "keywords": ["po","editor"],
+  "homepage": "https://github.com/ics/poeditor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Dulsky",
+      "email": "andrey.dulsky@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "PoEditor": "src"
+    }
+  }
+}
