@@ -9,7 +9,7 @@
 ```php
 $po = new ics1\PoEditor\PoEditor('en_US.po');
 $po->parse();
-$po->getItem( 'Book' )->setMsgStr( "Книга" );
-$po->getItem( 'New' )->setMsgStr( "Новый" );
+$po->getItem('Book')->setMsgStr("Книга");
+$po->getItem('New')->setMsgStr("Новый");
 $po->save();
 ```
